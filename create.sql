@@ -9,6 +9,5 @@ CREATE TABLE customer (
   password      VARCHAR(255)   NOT NULL,
   last_name     VARCHAR(255),
   first_name    VARCHAR(255),
-  zip           CHAR(10),
-  phone         VARCHAR(25),
+  phone         VARCHAR(25)
 );
