@@ -2,7 +2,7 @@ CREATE DATABASE IF NOT EXISTS user;
 
 USE user;
 
-CREATE TABLE customer (
+CREATE TABLE user (
   id  INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
   email     VARCHAR(255)    NOT NULL,
   create_date   DATETIME    NOT NULL,
